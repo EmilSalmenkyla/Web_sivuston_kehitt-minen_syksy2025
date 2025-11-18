@@ -1,5 +1,5 @@
 p {
-  color: rgb(177, 166, 166);
+  color: rgb(1, 1, 1);
 }
 
 body {
@@ -20,7 +20,7 @@ table {
 
 th,
 td {
-  border: 1px solid #ddd;
+  border: 1px solid #ffffff;
   padding: 8px;
   text-align: left;
 }
