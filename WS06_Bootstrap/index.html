@@ -1,11 +1,137 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WS06_Bootstrap</title>
-</head>
-<body>
-    <h1>WS06_Bootstrap</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WS05_Responsive</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <style>
+      h1 {
+        color: rgb(0, 0, 0);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to my page!</h1>
+    <nav class="responsive-nav">
+      <button class="menu-toggle">☰ Menu</button>
+      <ul class="nav-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <p>Emil Salmenkylä</p>
+    <img
+      src="./images/image0.jpeg"
+      width="300"
+      height="400"
+      alt="Description of image"
+    />
+    <h2>MY HOBBIES</h2>
+    <ol>
+      <li>cheerleading</li>
+      <li>GYM</li>
+      <li>Gaming</li>
+    </ol>
+    <h2>Gym lifts</h2>
+    <ul>
+      <li>Bench: 140KG</li>
+      <li>Deadlift: 235kg</li>
+      <li>Squat: 160</li>
+    </ul>
+    <a href="https://www.laurea.fi">Visit Laurea</a>
+    <table>
+      <tr>
+        <th>My ongoing courses</th>
+      </tr>
+      <tr>
+        <td>1. Web bage developping</td>
+      </tr>
+      <tr>
+        <td>2. Professional communication in english</td>
+      </tr>
+    </table>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" /><br /><br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+    <button class="transition-button">Send this!!</button>
+    <ul class="pseudo-list">
+      <p>TOP 5 Weekend drinks</p>
+      <li>Hartwall original long drink</li>
+      <li>Karhu III</li>
+      <li>Koff Crisp</li>
+      <li>Blanc</li>
+      <li>Olvi</li>
+    </ul>
+    <img
+      src="images/Grand-Theft-Auto-San-Andreas-Wanted-Level-Meme.avif"
+      alt="Sample Image"
+      height="525"
+      width="420"
+      class="filter-image"
+    />
+    <blockquote class="quote">Aww shieet here we go again.</blockquote>
+    <div class="flex-container">
+      <div class="box">People</div>
+      <div class="box">Are</div>
+      <div class="box">Predictable</div>
+    </div>
+    <div class="animation-box"></div>
+    <div class="grid-container">
+      <div class="grid-item">1</div>
+      <div class="grid-item">2</div>
+      <div class="grid-item">3</div>
+      <div class="grid-item">4</div>
+      <div class="grid-item">5</div>
+      <div class="grid-item">6</div>
+    </div>
+    <div class="content-box">
+      <h3>Enjoy your day</h3>
+      <p>Wondering how your eyes are working after reading this far?</p>
+    </div>
+    <div class="responsive-box">
+      Resizing the page makes magig true on this part.
+    </div>
+    <header>
+      <h1>My sport achievements</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">3 national gold</a></li>
+          <li><a href="#services">2 European silver</a></li>
+          <li><a href="#contact">National team 2024-2026</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          I have done competetive cheerleading for 8 years. I also enjoy lifting
+          at the gym and every kind of sport like soccer and basketball. I
+          started studying at laurea university of applied sciences in 2025.
+          Before that i Studied at Perho business college for 3 years doing a
+          vocational degree in business administration in 2018-2021.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Copyright 2025</p>
+    </footer>
+    <div class="responsive-container">
+      <div class="column">Column 1</div>
+      <div class="column">Column 2</div>
+    </div>
+    <img
+      src="images/Kaksi tikku-ukkoa se.png"
+      alt="responsive image"
+      class="responsive-image"
+    />
+    <div class="media-query-box">HAHA Magic again :D</div>
+  </body>
 </html>
