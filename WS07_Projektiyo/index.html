@@ -1,11 +1,316 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WS07_Projektiyo</title>
-</head>
-<body>
-    <h1>WS07_Projektiyo</h1>
-</body>
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>WS07-Projektityo-1</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <h1>Bianca ja Lumi</h1>
+    <nav class="responsive-nav">
+      <button onclick="showPage('home')">Koti</button>
+      <button onclick="showPage('about')">Lumi</button>
+      <button onclick="showPage('contact')">Bianca</button>
+      <button onclick="showPage('gallery')">Kuvia</button>
+    </nav>
+    <div id="home" class="page active">
+      <h2>Tervetuloa Biancan ja Lumin Kotisivuille</h2>
+      <p>
+        Bianca ja Lumi ovat Pihakoiria. Jos ette vielä arvanneet niin Lumi on
+        valkoinen ja Bianca on kauniin ruskea. Näillä nettisivuilla selviää
+        molemmista koirista tietoja joita ette voisi arvata.
+      </p>
+      <div>
+    <img src="images/thumbnail_IMG_8820 (1).jpg" class="img-fluid" alt="Bianca ja Lumi" width="300" height="400"/>
+      </div>
+      <p>Vasemmalta oikealle Lumi ja Bianca hyväkäytöksisinä</p>
+    </div>
+    <div id="about" class="page">
+      <h2>Lumi</h2>
+      <img
+        src="images/lumi1.jpg"
+        class="img-fluid"
+        alt="Lumi"
+        width="300"
+        height="400"
+      />
+      <p>
+        Lumi on 10-vuotias tyttökoira joka nauttii auringossa köllöttelystä ja
+        salaa herkkujen syömisestä. Lumilla on myös pelonaiheita:
+      </p>
+      <div class="container">
+        <div class="box">
+          <h3>Pelko 1</h3>
+          <p>
+            Miehet. Lumi pelkää aluksi miehiä mutta muutaman herkun ja
+            rapsutuksen jälkeen rakastuu.
+          </p>
+        </div>
+        <div class="box">
+          <h3>Pelko 2</h3>
+          <p>Kovat äänet. Esimerkiksi ilotulitteet!</p>
+        </div>
+        <div class="box">
+          <h3>Pelko 3</h3>
+          <p>
+            Jalkapallo. Ei tiedä onko kyse katsojan kovasta äänestä vai tutun
+            juontajan huudosta, mutta aina juoksee peiton alle piiloon.
+          </p>
+        </div>
+      </div>
+      <p>
+        Näitten pelkojen lisäksi Lumilta löytyy myös kiinnostuksen aiheita.
+        Kaikki uusi viehättää mistä kokemusta ei hirveästi vielä ole.
+      </p>
+      <img src="images/lumi ja kanttarelli.jpg" class="img-fluid" alt="Lumi ja kanttarelli" width="300" height="400"/>
+      <p>
+        Kesä on Lumin parasta aikaa voi nauttia auringosta ja parhaista
+        tuoksuista kuten ylläolevasta kuvasta voikin päätellä kun Emil siisti
+        kanttarelleja.
+      </p>
+    </div>
+    <div id="contact" class="page">
+      <h2>Bianca</h2>
+      <img
+        src="images/bia hammas.jpg"
+        class="img-fluid"
+        alt="Bianca"
+        width="200"
+        height="100"
+      />
+      <p>
+        Bianca on 14-vuotias tyttökoira. Bianca ei pelkää mitään sillä
+        valitettavasti hän ei oikein näe tai kuule enään. Sitä suuremmalla
+        syyllä on paljon syitä miksi Bianca saa niin sanotusti diivailla!
+      </p>
+      <div class="container">
+        <div class="box">
+          <h3>Syy 1: Ruoka</h3>
+          <p>
+            Jos Biancaa ei ruoki lusikalla niin sitä ei kiinnosta syödä, kunnes
+            käy selväksi että nyt ei saa lusikalla ruokaa.
+          </p>
+        </div>
+        <div class="box">
+          <h3>Syy 2: Rapsutukset</h3>
+          <p>
+            Bianca ei siedä jos Lumia rapsutetaan mutta häntä ei. Jos koitat
+            rapsuttaa Biancaa silti, hän lähtee pois.
+          </p>
+        </div>
+        <div class="box">
+          <h3>Syy 3: Sade</h3>
+          <p>
+            Bianca ei ulkona kävele askeltakaan jos ulkona sataa ja se on varma!
+          </p>
+        </div>
+      </div>
+      <p>
+        Näistä diivailuista huolimatta Bianca pitää huolta siskostaan ja on
+        silti erittäin läheinen varsinkin kun on koko päivä haisteltu paikkoja
+        ja on aika käydä yöpuulle.
+      </p>
+      <img
+        src="images/bi ja lahjat.jpg"
+        class="img-fluid"
+        alt="Bianca ja lahjat"
+        width="300"
+        height="400"
+      />
+    </div>
+    <div id="gallery" class="page">
+      <h2>Kuvia Tytöistä</h2>
+      <img
+        src="images/molemmat koirut.jpg"
+        class="img-fluid"
+        alt="Lumi ja Bianca yhdessä"
+        width="300"
+        height="400"
+      />
+      <p>Tytöt päiväunilla. Bianca Lumin tyynynä</p>
+      <div>
+        <img
+          src="images/bia pentu.jpg"
+          class="img-fluid"
+          alt="Bianca pentuna"
+          width="300"
+          height="400"
+        />
+      </div>
+      <p>Bianca pentuna</p>
+      <div>
+        <img
+          src="images/thumbnail_image0.jpg"
+          class="img-fluid"
+          alt="Bianca ja Lumi yhdessä"
+          width="300"
+          height="400"
+        />
+      </div>
+      <p>Lumi Selfie</p>
+      <div>
+        <img
+          src="images/lumi pentu.jpg"
+          class="img-fluid"
+          alt="Lumi pentuna"
+          width="300"
+          height="400"
+        />
+      </div>
+      <p>Lumi pentuna lenkillä</p>
+      <div>
+        <img
+          src="images/lumi joulu.jpg"
+          class="img-fluid"
+          alt="joulu"
+          width="300"
+          height="400"
+        />
+      </div>
+      <p>Hyvää joulua toivottaa siskokset kuin pihikset</p>
+    </div>
+
+    <script>
+      function showPage(pageId) {
+        document.querySelectorAll(".page").forEach((page) => {
+          page.classList.remove("active");
+        });
+        document.getElementById(pageId).classList.add("active");
+      }
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <div id="chatbot-container">
+      <button id="chatbot-toggle" aria-label="Avaa chat">💬</button>
+      <div id="chatbot-widget" class="hidden" aria-live="polite">
+        <div class="chat-header">
+          <span>Bianca & Lumi - Chat</span>
+          <button id="chatbot-close" aria-label="Sulje chat">×</button>
+        </div>
+        <div id="chatbox"></div>
+        <div class="chat-input">
+          <input
+            id="userInput"
+            type="text"
+            placeholder="Kysy Biancasta tai Lumista..."
+          />
+          <button id="sendBtn" onclick="sendMessage()">Lähetä</button>
+        </div>
+      </div>
+    </div>
+    <script>
+      const toggleBtn = document.getElementById("chatbot-toggle");
+      const widget = document.getElementById("chatbot-widget");
+      const closeBtn = document.getElementById("chatbot-close");
+
+      toggleBtn.addEventListener("click", () => {
+        widget.classList.toggle("hidden");
+        if (!widget.classList.contains("hidden")) {
+          setTimeout(() => document.getElementById("userInput").focus(), 100);
+        }
+      });
+
+      closeBtn.addEventListener("click", () => widget.classList.add("hidden"));
+
+      function sendMessage() {
+        const inputEl = document.getElementById("userInput");
+        const chatbox = document.getElementById("chatbox");
+        const text = inputEl.value.trim();
+        if (!text) return;
+
+        chatbox.innerHTML += `<p class="message"><b>Sinä:</b> ${escapeHtml(
+          text
+        )}</p>`;
+        const reply = getBotResponse(text);
+        chatbox.innerHTML += `<p class="message bot"><b>Bot:</b> ${reply}</p>`;
+
+        inputEl.value = "";
+        chatbox.scrollTop = chatbox.scrollHeight;
+      }
+
+      function escapeHtml(str) {
+        return str.replace(
+          /[&<>"']/g,
+          (m) =>
+            ({
+              "&": "&amp;",
+              "<": "&lt;",
+              ">": "&gt;",
+              '"': "&quot;",
+              "'": "&#039;",
+            }[m])
+        );
+      }
+
+      function getBotResponse(input) {
+        const t = input.toLowerCase();
+
+        if (/(hei|moi|terve)/.test(t))
+          return "Hei! Kysy Lumista, Biancasta, pelonaiheista, iästä tai lempijutuista.";
+        if (/apua|help|miten/.test(t))
+          return "Voit kysyä esim. “Kuka on Lumi?” tai “Mitä Bianca pelkää?”";
+
+        if (t.includes("lumi") && t.includes("ikä"))
+          return "Lumi on 10‑vuotias tyttökoira.";
+        if (
+          t.includes("lumi") &&
+          (t.includes("pelko") || t.includes("pelkää"))
+        ) {
+          return "Lumi pelkää aluksi miehiä, kovia ääniä (esim. ilotulitteet) ja jalkapalloa.";
+        }
+        if (
+          t.includes("lumi") &&
+          (t.includes("tykkää") ||
+            t.includes("lempijutut") ||
+            t.includes("kiinnostus"))
+        ) {
+          return "Lumi nauttii auringossa köllöttelystä ja on kiinnostunut uusista asioista.";
+        }
+        if (
+          t.includes("lumi") &&
+          (t.includes("kesä") || t.includes("kanttarelli"))
+        ) {
+          return "Kesä on Lumin parasta aikaa: auringonpaiste ja hyvät tuoksut, kuten kanttarellit.";
+        }
+
+        if (t.includes("bianca") && t.includes("ikä"))
+          return "Bianca on 14‑vuotias tyttökoira.";
+        if (
+          t.includes("bianca") &&
+          (t.includes("diiva") || t.includes("syy") || t.includes("lempi"))
+        ) {
+          return "Biancalla on diivailuun syitä: ruoka (lusikalla syöminen), rapsutukset (haluaa huomion) ja sade (ei askeltakaan ulos).";
+        }
+        if (
+          t.includes("bianca") &&
+          (t.includes("näkee") || t.includes("kuule"))
+        ) {
+          return "Bianca ei oikein näe tai kuule enää, joten hän ei pelkää juuri mitään.";
+        }
+        if (
+          t.includes("yhdessä") ||
+          t.includes("siskot") ||
+          t.includes("huolehtii")
+        ) {
+          return "Bianca pitää huolta siskostaan Lumista ja ovat läheisiä, varsinkin iltaisin.";
+        }
+
+        if (t.includes("kuvia") || t.includes("galleria")) {
+          return "Kuvia löytyy “Kuvia Tytöistä” ‑osiosta: pentukuvat, yhteiskuvat ja joulukuva.";
+        }
+
+        if (t.includes("missä") && t.includes("tieto")) {
+          return "Tietoa löytyy sivuista: Koti (esittely), Lumi (pelot & kesä), Bianca (diivasyyt), Kuvia (galleria).";
+        }
+
+        return "En ole varma, mutta voit kysyä iästä, peloista, lempijutuista tai katsoa sivuosiot.";
+      }
+    </script>
+  </body>
 </html>
